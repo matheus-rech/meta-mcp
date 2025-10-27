@@ -1,0 +1,75 @@
+cochrane-meta-mcp/
+│
+├── 📦 Configuration Files
+│   ├── package.json                    # Dependencies & scripts
+│   ├── tsconfig.json                   # TypeScript config
+│   ├── .gitignore                      # Git ignore rules
+│   └── build.sh                        # Build script
+│
+├── 📚 Documentation
+│   ├── README.md                       # Main documentation
+│   ├── QUICKSTART.md                   # 5-minute setup guide
+│   ├── PROJECT_STATUS.md               # Complete status report
+│   └── CLAUDE_DESKTOP_CONFIG.md        # Installation guide
+│
+├── 💻 Source Code (src/)
+│   ├── index.ts                        # MCP server entry point
+│   │
+│   ├── utils/
+│   │   └── logger.ts                   # Winston logging system
+│   │
+│   ├── schemas/
+│   │   └── cochrane.ts                 # Zod validation schemas
+│   │                                   # (Study, Outcome, Effect Size, etc.)
+│   │
+│   ├── tools/                          # MCP tool implementations
+│   │   ├── import_revman.ts           # RevMan/CSV parser
+│   │   ├── validation.ts              # Cochrane data validation
+│   │   ├── meta_analysis.ts           # R-based meta-analysis
+│   │   ├── forest_plot.ts             # Forest plot generation
+│   │   ├── publication_bias.ts        # Publication bias tests
+│   │   └── reporting.ts               # Report generation
+│   │
+│   └── r_bridge/                       # R integration layer
+│       ├── executor.ts                 # R script executor
+│       └── scripts/
+│           └── meta_analysis.R         # R meta-analysis functions
+│
+├── 📊 Examples
+│   ├── sample_data.csv                 # Example dataset (5 studies)
+│   └── example_usage.md                # Detailed usage examples
+│
+├── 📁 Directories (created during build)
+│   ├── templates/                      # Report templates
+│   ├── tests/                          # Test files (future)
+│   ├── docs/                           # Additional documentation
+│   └── dist/                          # Compiled JavaScript (after build)
+│
+└── 🔧 Build Output (after npm run build)
+    └── dist/
+        ├── index.js                    # Executable MCP server
+        ├── index.js.map               # Source maps
+        ├── tools/                      # Compiled tools
+        ├── schemas/                    # Compiled schemas
+        ├── utils/                      # Compiled utilities
+        └── r_bridge/                   # Compiled R bridge
+
+📊 Statistics:
+- TypeScript Files: 9
+- R Scripts: 1
+- Documentation Files: 5
+- Configuration Files: 3
+- Example Files: 2
+- Total Lines of Code: ~2,500+
+
+🔧 Dependencies:
+- Node.js Packages: 5 main + 5 dev
+- R Packages: 4 required (metafor, meta, ggplot2, jsonlite)
+
+🎯 MCP Tools: 6
+1. import_revman_data
+2. validate_cochrane_data
+3. perform_meta_analysis
+4. generate_forest_plot
+5. assess_publication_bias
+6. generate_cochrane_report

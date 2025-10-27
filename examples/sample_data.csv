@@ -1,0 +1,6 @@
+study_id,authors,year,title,journal,doi,intervention,comparison,outcome,events_treatment,n_treatment,events_control,n_control
+study01,Smith et al,2020,Effect of intervention A on outcome X,J Med Res,10.1234/jmr.2020.001,Intervention A,Standard care,Primary outcome,45,200,65,200
+study02,Jones et al,2019,RCT of intervention A,Lancet,10.1016/lancet.2019.001,Intervention A,Standard care,Primary outcome,32,150,48,150
+study03,Brown et al,2021,Intervention A versus control,NEJM,10.1056/nejm.2021.001,Intervention A,Standard care,Primary outcome,28,180,42,180
+study04,Garcia et al,2020,Multicenter trial of intervention A,BMJ,10.1136/bmj.2020.001,Intervention A,Standard care,Primary outcome,55,220,70,220
+study05,Lee et al,2018,Efficacy of intervention A,JAMA,10.1001/jama.2018.001,Intervention A,Standard care,Primary outcome,38,190,52,190

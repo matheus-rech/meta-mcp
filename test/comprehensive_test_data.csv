@@ -1,0 +1,13 @@
+study_id,authors,year,title,journal,doi,intervention,comparison,outcome,events_treatment,n_treatment,events_control,n_control
+study01,Smith et al,2020,Effect of Drug A on cardiovascular mortality in high-risk patients,NEJM,10.1056/nejm.2020.001,Drug A,Placebo,All-cause mortality,22,150,35,150
+study02,Johnson et al,2019,Randomized trial of Drug A versus placebo for heart failure,Lancet,10.1016/lancet.2019.045,Drug A,Placebo,All-cause mortality,18,180,30,180
+study03,Williams et al,2021,Drug A in patients with chronic heart disease,JAMA,10.1001/jama.2021.089,Drug A,Placebo,All-cause mortality,25,200,38,200
+study04,Brown et al,2020,Multicenter study of Drug A efficacy,Circulation,10.1161/circ.2020.034,Drug A,Placebo,All-cause mortality,20,160,32,160
+study05,Garcia et al,2018,Drug A for secondary prevention,BMJ,10.1136/bmj.2018.067,Drug A,Placebo,All-cause mortality,15,100,25,100
+study06,Martinez et al,2019,Long-term effects of Drug A,Eur Heart J,10.1093/ehj.2019.123,Drug A,Placebo,All-cause mortality,28,150,42,150
+study07,Anderson et al,2022,Drug A in elderly population,J Am Coll Cardiol,10.1016/jacc.2022.078,Drug A,Placebo,All-cause mortality,35,120,45,120
+study08,Lee et al,2021,Drug A versus placebo in Asian cohort,JAMA Cardiol,,Drug A,Placebo,All-cause mortality,24,140,32,140
+study09,Thompson et al,2023,Large definitive trial of Drug A,NEJM,10.1056/nejm.2023.145,Drug A,Placebo,All-cause mortality,75,500,110,500
+study10,Davis et al,2017,Pilot study of Drug A,Am Heart J,,Drug A,Placebo,All-cause mortality,8,50,15,50
+study11,Wilson et al,2018,Drug A in low-risk patients,Circulation,,Drug A,Placebo,All-cause mortality,0,100,10,100
+study12,Rodriguez et al,2022,Drug A in refractory cases,Eur Heart J,10.1093/ehj.2022.234,Drug A,Placebo,All-cause mortality,5,120,25,120

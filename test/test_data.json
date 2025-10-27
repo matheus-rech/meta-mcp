@@ -1,0 +1,40 @@
+{
+  "studies": [
+    {
+      "id": "study_001",
+      "authors": "Smith et al",
+      "year": 2020,
+      "title": "Test Study 1",
+      "journal": "Test Journal",
+      "doi": "10.1000/test.001"
+    },
+    {
+      "id": "study_002",
+      "authors": "Johnson et al",
+      "year": 2021,
+      "title": "Test Study 2",
+      "journal": "Test Journal",
+      "doi": "10.1000/test.002"
+    }
+  ],
+  "outcomes": [
+    {
+      "study_id": "study_001",
+      "events_treatment": 15,
+      "n_treatment": 100,
+      "events_control": 25,
+      "n_control": 100
+    },
+    {
+      "study_id": "study_002",
+      "events_treatment": 20,
+      "n_treatment": 120,
+      "events_control": 30,
+      "n_control": 120
+    }
+  ],
+  "outcome_type": "binary",
+  "outcome_name": "Mortality",
+  "intervention": "New Treatment",
+  "comparison": "Standard Care"
+}
